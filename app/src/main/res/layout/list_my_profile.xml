@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pramudya Saputra"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:id="@+id/NamaPegawai"
+            />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+            <TableRow>
+                <TextView
+                    android:text="Gender"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:text=" : "
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:id="@+id/JenisKelamin"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="TTL"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:text=" : "
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:id="@+id/TTL"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Email"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:text=" : "
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:id="@+id/Email"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Divisi"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:text=" : "
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:id="@+id/Divisi"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
